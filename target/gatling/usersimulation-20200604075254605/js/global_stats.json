@@ -2,48 +2,48 @@
     "name": "Global Information",
     "numberOfRequests": {
         "total": 20,
-        "ok": 20,
-        "ko": 0
+        "ok": 19,
+        "ko": 1
     },
     "minResponseTime": {
-        "total": 419,
-        "ok": 419,
-        "ko": 0
+        "total": 92,
+        "ok": 402,
+        "ko": 92
     },
     "maxResponseTime": {
-        "total": 1843,
-        "ok": 1843,
-        "ko": 0
+        "total": 1656,
+        "ok": 1656,
+        "ko": 92
     },
     "meanResponseTime": {
-        "total": 1127,
-        "ok": 1127,
-        "ko": 0
+        "total": 1006,
+        "ok": 1054,
+        "ko": 92
     },
     "standardDeviation": {
-        "total": 513,
-        "ok": 513,
+        "total": 526,
+        "ok": 494,
         "ko": 0
     },
     "percentiles1": {
-        "total": 1244,
-        "ok": 1244,
-        "ko": 0
+        "total": 1195,
+        "ok": 1358,
+        "ko": 92
     },
     "percentiles2": {
-        "total": 1577,
-        "ok": 1577,
-        "ko": 0
+        "total": 1466,
+        "ok": 1483,
+        "ko": 92
     },
     "percentiles3": {
-        "total": 1773,
-        "ok": 1773,
-        "ko": 0
+        "total": 1644,
+        "ok": 1644,
+        "ko": 92
     },
     "percentiles4": {
-        "total": 1829,
-        "ok": 1829,
-        "ko": 0
+        "total": 1654,
+        "ok": 1654,
+        "ko": 92
     },
     "group1": {
         "name": "t < 800 ms",
@@ -52,8 +52,8 @@
     },
     "group2": {
         "name": "800 ms < t < 1200 ms",
-        "count": 2,
-        "percentage": 10
+        "count": 1,
+        "percentage": 5
     },
     "group3": {
         "name": "t > 1200 ms",
@@ -62,12 +62,12 @@
     },
     "group4": {
         "name": "failed",
-        "count": 0,
-        "percentage": 0
+        "count": 1,
+        "percentage": 5
     },
     "meanNumberOfRequestsPerSecond": {
         "total": 1.6666666666666667,
-        "ok": 1.6666666666666667,
-        "ko": 0
+        "ok": 1.5833333333333333,
+        "ko": 0.08333333333333333
     }
 }
