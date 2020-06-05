@@ -1,0 +1,10 @@
+{
+  "simulation": "github.UserSimulation",
+  "simulationId": "usersimulation",
+  "start": 1591311397843,
+  "description": "",
+  "scenarios": ["Create a new respository"],
+  "assertions": [
+
+  ]
+}

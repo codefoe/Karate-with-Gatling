@@ -1,3 +1,4 @@
 examples/users/UsersRunner.class
 github/GithubRunner.class
 examples/ExamplesTest.class
+ui/AmazonRunner.class
