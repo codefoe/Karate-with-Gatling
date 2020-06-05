@@ -35,13 +35,22 @@
 <!--            <artifactId>karate-core</artifactId>-->
 <!--            <version>0.9.4</version>-->
 <!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.1.0</version>
+            <scope>test</scope>
+        </dependency>
 
 
 
 
 
 
-                <dependency>
+
+
+        <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-apache</artifactId>
             <version>${karate.version}</version>
@@ -89,10 +98,7 @@
                 <artifactId>gatling-maven-plugin</artifactId>
                 <version>3.0.5</version>
                 <configuration>
-                    <simulationsFolder>src/test/java</simulationsFolder>
-                    <includes>
-                        <include>github.UserSimulation</include>
-                    </includes>
+                    <simulationsFolder>src/test/java/github</simulationsFolder>
                 </configuration>
                 <executions>
                     <execution>
