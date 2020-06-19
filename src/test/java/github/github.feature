@@ -11,5 +11,5 @@ Feature: Getting all repositories
     * print data
     * def result = call read('repoDelete.feature') data
     * print response
-    * print response
+
 

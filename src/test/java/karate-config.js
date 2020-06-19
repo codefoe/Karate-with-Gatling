@@ -5,13 +5,7 @@ function fn() {
       env = 'dev'; // a custom 'intelligent' default
     }
     
-    var config = { // base config JSON
-      githubURL : 'https://api.github.com/',
-      githubCreds: { username: 'ernestea@gmail.com', password: 'qAtbas-0maqbi-cyntah' },
-      baseUrl : 'https://api.trello.com/1/',
-      trelloToken : '1258ec5dcb906112513e9b27cd029033a03b139276ee36db530596ea9e843f14',
-      trelloKey: '100264120d57c1e669ee014c58832665'
-    };
+    var config = karate.read('/Users/ernest/Desktop/git/myproject/config.json');
     
 
     

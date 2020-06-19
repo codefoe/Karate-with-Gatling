@@ -17,6 +17,14 @@ Given path "user/repos"
 * print repo
 When request repo
 When method POST
+
+
+  * def csv = read('path to file')
+  When request csv
+  When method PUT
+
+
+
   Then status 201
   * print response
 # * json schema = read('schemaGithub.json');

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="asdf">
+<cars>
+    <supercars company="Ferrari">
+        <carname type="formula one">Ferrari 101</carname>
+        <carname type="sports">Ferrari 202</carname>
+        <MsgId>Random Message12</MsgId>
+    </supercars>
+    <CreDtTm>2020-06-11T19:16:08</CreDtTm>
+</cars>
+</Document>
