@@ -38,7 +38,7 @@ Scenario: with a query param "name = <randomName>" using <key>,<token>
 # * print res  
 
 Scenario: read and write
-* def file = read("/Users/ernest/Downloads/export-2.zip")
+* def file = read("/Users/ernest/file.zip")
 * print file
 * def writer = 
     """
@@ -57,27 +57,13 @@ Scenario: read and write
         Given csv c = read('file:src/demo/api/export.txt')
          * def c = c[0];
         Then print c
-        * print c["Dealer Code"]
-        # Then match c["Dealer Code"] == "TD67"
-        # Then match exportJson["Agreement Type"] == "CVA - TM&R / MARC"
-        # Then match exportJson["CMA Recommendations"] == "TRUE"
-        # Then match exportJson["Branch"] == "HASTINGS DEERING (AU)/AIR EXPRESS INTL"
-        #//Then match exportJson["Last Updated, By"] == "QPS-31E99FE7"
-        #//Then match exportJson["Last Updated, By"] == "QPS-31E99FE7"
 
-        Scenario: read txt files store it in bytes
-        # Given bytes byt = read('textFile.txt')
-            * def send =
-                """function ff(str) {
-                    return Java.type('Binary').sendMeString(str);
-                        }"""
                 
     * def s = "Hello There"
     * print s
     * def t = call send(s)
     * print t
-    #   * def result = call (byt)
-        # * print result
+
 
 
 
